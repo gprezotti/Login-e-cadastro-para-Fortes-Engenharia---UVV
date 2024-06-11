@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fortes Engenharia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="imagens/image 30.png" alt="logo_fortes.png">
+    <p>CADASTRO</p>
+  </header>
+  <main>
+    <section id="nome">
+      <label for="nome">NOME</label>
+      <input type="text">
+    </section>
+
+
+    <section id="cpf_sexo">
+      <div id="cpf">
+        <label for="cpf">CPF</label>
+        <input type="text">
+      </div>
+
+      <div id="sexo">
+        <label for="sexo">SEXO</label>
+        <select id="sexo" name="sexo">SEXO
+          <option value="masculino">Masculino</option>
+          <option value="feminino">feminio</option>
+          <option value="outro">Outro</option>
+          <option value="nao_informar">Prefiro não informar</option>
+      </div>
+      </select>
+    </section>
+
+    
+      <section id="telefone_cep">
+        <div id="telefone">
+          <label for="telefone">TELEFONE</label>
+          <input type="number">
+        </div>
+
+        <div id="cep">
+          <label for="cep">CEP</label>
+          <input type="number">
+        </div>
+      </section>
+
+
+      <section id="complemento">
+        <label for="complemento">COMPLEMENTO</label>
+        <input type="text">
+      </section>
+
+
+      <section id="email_id">
+        <div id="email">
+          <label for="email">EMAIL</label>
+          <input type="email">
+        </div>
+
+        <div id="id">
+          <label for="id_funcionario">ID FUNCIONARIO</label>
+          <input type="number">
+        </div>
+      </section>
+
+
+      <section id="senha_confirmar">
+        <div id="senha">
+          <label for="senha">SENHA</label>
+          <input type="password">
+        </div>
+
+        <div id="confirmar">
+          <label for="confirmar">CONFIRMAR SENHA</label>
+          <input type="password">
+        </div>
+      </section>
+
+      <section id="botao">
+        <button id="confirmar">Confirmar</button>
+      </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
